@@ -12,7 +12,7 @@ Apple script to customize the wallpaper on based on system time. Simplified impl
 - Open terminal, on the repo folder, run ```sh
 sh setup.sh```
 - Under ```/Users/$(USER)/Pictures/```, create a folder named ```wallpaper```, and move the images under ```wallpaper```.
-Note that you **must edit ```wallpaper.scpt``` to specify your file name**. (You may open wallpaper.scpt with default ```Script Editor```). In ```wallpaper.scpt```,
+Note that you **must edit ```wallpaper.scpt``` to specify your file name**. (You may open wallpaper.scpt with default ```Script Editor```). As defined in ```wallpaper.scpt```, the default image name under `wallpaper` is `IMG001.jpg` and `IMG002.JPG`
 ### Disable this script
 In terminal,
 ```sh

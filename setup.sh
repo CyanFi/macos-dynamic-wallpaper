@@ -24,7 +24,5 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 	</dict>
 </plist>" > /Users/$var/Library/LaunchAgents/DynamicWalls.Scheduler.plist
 
-sleep 2
-
 launchctl load -w /Users/$var/Library/LaunchAgents/DynamicWalls.Scheduler.plist
 
